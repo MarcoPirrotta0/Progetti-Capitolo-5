@@ -9,11 +9,19 @@ feedbacks = pd.Series([
     "Qualità buona, ma spedizione lenta..."
 ])
 
+import re
+
 # Pulizia base del testo
 def pulisci_testo(testo):
+    # Rimuove tutto tranne lettere, numeri e caratteri accentati
     testo = re.sub(r'[^a-zA-Z0-9À-ÿ\s]', '', testo)
+    
+    # Sostituisce spazi multipli con un singolo spazio
     testo = re.sub(r'\s+', ' ', testo)
+    
+    # Rimuove spazi iniziali/finali e converte in minuscolo
     return testo.strip().lower()
+
 
 # Pulizia
 feedbacks_puliti = feedbacks.apply(pulisci_testo)
