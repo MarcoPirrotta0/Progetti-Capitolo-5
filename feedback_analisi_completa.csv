@@ -1,0 +1,10 @@
+Feedback Originale,Feedback Pulito,Tradotto (EN),Parole Chiave,"Predizione (0=Neg,1=Pos)",Score Positività,Sentiment
+Ottimo prodotto! Super soddisfatto!!!,ottimo prodotto super soddisfatto,Excellent super satisfied product,"excellent, super, satisfied, product",1,0.889,Positivo
+"Pessimo servizio, mai più.",pessimo servizio mai più,bad service never again,"bad, service",0,0.188,Negativo
+"Qualità buona, ma spedizione lenta...",qualità buona ma spedizione lenta,good quality but slow shipping,"good, quality, slow, shipping",1,0.814,Positivo
+"Consegna puntuale, prodotto in perfette condizioni.",consegna puntuale prodotto in perfette condizioni,Punctual delivery produced in perfect condition,"punctual, delivery, produced, perfect, condition",1,0.517,Neutro
+Non sono soddisfatto della qualità del materiale.,non sono soddisfatto della qualità del materiale,I am not satisfied with the quality of the material,"satisfied, quality, material",0,0.112,Negativo
+"Esperienza d'acquisto eccellente, tornerò sicuramente a comprare.",esperienza dacquisto eccellente tornerò sicuramente a comprare,Excellent dacper experience I will definitely return to buy,"excellent, dacper, experience, definitely, return, buy",1,0.658,Neutro
+"Istruzioni poco chiare, ci ho messo troppo tempo a montare il prodotto.",istruzioni poco chiare ci ho messo troppo tempo a montare il prodotto,unclear instructions took too long to mount the product,"unclear, instructions, took, long, mount, product",0,0.417,Neutro
+"Ottimo rapporto qualità/prezzo, consigliato!",ottimo rapporto qualitàprezzo consigliato,Great Recommended quality ratio,"great, recommended, quality, ratio",1,0.943,Positivo
+[MEDIA],,,,,0.567,Sentiment Medio
