@@ -15,3 +15,4 @@ print(inventario_prodotti)
 
 # Accesso alla quantità disponibile per il prodotto con codice 'P002'
 print("Quantità disponibile per P002:", inventario_prodotti.loc['P002', 'Quantità Disponibile'])
+# loc is used for label-based indexing
